@@ -45,7 +45,7 @@ if ($dataProfile['nama_lengkap'] == '') {
 
 // get data resep
 $idProfile = $dataProfile['id_profile'];
-$dataResep = query("SELECT * FROM RESEP LEFT JOIN profile using(id_profile) WHERE id_profile = $idProfile");
+$dataResep = query("SELECT * FROM resep LEFT JOIN profile using(id_profile) WHERE id_profile = $idProfile");
 ?>
 
 <!DOCTYPE html>

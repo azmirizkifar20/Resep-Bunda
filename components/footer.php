@@ -6,7 +6,7 @@
     </p>
     <p>
         Resep bunda <br>
-        Isi keterangan apapun disini yah
+        Copyright © Muhamad Azmi Rizkifar 2022
     </p>
     </div>
 </footer>

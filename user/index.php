@@ -46,9 +46,9 @@ if ($dataProfile['nama_lengkap'] == '') {
 // get data resep
 if (isset($_POST['cari'])) {
     $cari = $_POST['text_cari'];
-    $dataResep = query("SELECT * FROM RESEP LEFT JOIN profile using(id_profile) WHERE judul_resep LIKE '%$cari%'");
+    $dataResep = query("SELECT * FROM resep LEFT JOIN profile using(id_profile) WHERE judul_resep LIKE '%$cari%'");
 } else {
-    $dataResep = query("SELECT * FROM RESEP LEFT JOIN profile using(id_profile)");
+    $dataResep = query("SELECT * FROM resep LEFT JOIN profile using(id_profile)");
 }
 
 ?>
