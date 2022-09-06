@@ -47,7 +47,7 @@ if (isset($_POST['cari'])) {
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         .bg {
-            background-image: url('assets/img/banner.png');
+            background-image: url('assets/img/banner.jpg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
