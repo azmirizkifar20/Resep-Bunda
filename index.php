@@ -65,7 +65,7 @@ if (isset($_POST['cari'])) {
         <div class="row my-5 justify-content-center">
             <div class="col-md-12 mt-4">
                 <img style="margin-top: -25px" src="assets/img/logo.png" width="60px">
-                <small class="display-4 m-2">Resep Bunda</small> <br> <br>
+                <small style="color: #f0f0f0" class="display-4 m-2">Resep Bunda</small> <br> <br>
                 <!-- <h1 class="display-4 mt-4">Resep Bunda</h1> <br> -->
                 <form method="POST" action="" class="form-inline w-100">
                     <div class="input-group w-50" style="height: 60px; margin: 0 auto">
